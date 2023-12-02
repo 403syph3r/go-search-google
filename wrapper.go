@@ -3,11 +3,13 @@ package searchwrapper
 import (
 	"context"
 	"fmt"
-	googlesearch "go-search-google/google-search" // including locally because at the time of releasing this project (Dec 2023) there was an unfixed bug in google-search which has been resolved in this repo
+
+	googlesearch "github.com/403syph3r/go-search-google/google-search" // including locally because at the time of releasing this project (Dec 2023) there was an unfixed bug in google-search which has been resolved in this repo
 
 	// googlesearch "github.com/rocketlaunchr/google-search"
-	"go-search-google/utils"
 	"time"
+
+	"github.com/403syph3r/go-search-google/utils"
 
 	"golang.org/x/time/rate"
 )

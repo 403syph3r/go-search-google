@@ -1,8 +1,9 @@
 package searchwrapper_test
 
 import (
-	searchwrapper "go-search-google"
 	"testing"
+
+	searchwrapper "github.com/403syph3r/go-search-google"
 )
 
 func TestMainSearch(t *testing.T) {

@@ -1,4 +1,4 @@
-module go-search-google
+module github.com/403syph3r/go-search-google
 
 go 1.21.4
 
