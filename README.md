@@ -13,18 +13,19 @@ This repository is to be used as a package, not as a standalone program.
 package main
 
 import (
-    searchwrapper "github.com/403syph3r/go-search-google"
-    "fmt"
+	"fmt"
+
+	searchwrapper "github.com/403syph3r/go-search-google"
 )
 
 func main() {
-    queries := []string{"Query 1","Query 2"}
-    options := searchwrapper.SearchParameters{}
-    rec, err := searchwrapper.SearchMultiple(nil, queries, options)
-    if err != nil {
-        fmt.Printf("Error Encountered: %v\n", err)
-    } else {
-        searchwrapper.PrintResultSetPreview(rec)
-    }
+	queries := []string{"Query 1", "Query 2"}
+	options := searchwrapper.SearchParameters{}
+	rec, err := searchwrapper.SearchMultiple(nil, queries, options)
+	if err != nil {
+		fmt.Printf("Error Encountered: %v\n", err)
+	} else {
+		searchwrapper.PrintResultSetPreview(rec)
+	}
 }
 ```

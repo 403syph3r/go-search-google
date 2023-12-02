@@ -140,9 +140,9 @@ func GetResultSetCounts(results []ResultSet) []int {
 func PrintResultSetPreview(results []ResultSet) {
 	//Can be utilized to quicklky preview the results
 	for _, r := range results {
-		fmt.Printf("Query: %v", r.Query)
+		fmt.Printf("Query: %v\n", r.Query)
 		for _, s := range r.Results {
-			fmt.Printf("- %v (%v)", s.Title, s.URL)
+			fmt.Printf("- %v (%v)\n", s.Title, s.URL)
 		}
 	}
 }

@@ -1,7 +1,6 @@
 package utils
 
 import (
-	"fmt"
 	"math/rand"
 	"time"
 )
@@ -19,7 +18,6 @@ func GetRandomizedUserAgent(excludeFromList string) string {
 	var rand_num int
 	for {
 		rand_num = rand.Intn(len(sampleUserAgents))
-		fmt.Printf("Using Random Number %v\n", rand_num)
 		if sampleUserAgents[rand_num] != excludeFromList {
 			return sampleUserAgents[rand_num]
 		}
