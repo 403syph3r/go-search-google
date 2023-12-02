@@ -20,7 +20,7 @@ import (
 func main() {
     queries := []string{"Query 1","Query 2"}
     options := searchwrapper.SearchParameters{}
-    rec, err := searchwrapper.SearchMultiple(nil, c.in, options)
+    rec, err := searchwrapper.SearchMultiple(nil, queries, options)
     if err != nil {
         fmt.Printf("Error Encountered: %v\n", err)
     } else {
