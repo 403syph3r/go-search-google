@@ -31,4 +31,4 @@ func main() {
 ```
 
 ## Credits
-This package relies heavily on [https://github.com/rocketlaunchr/google-search](https://github.com/rocketlaunchr/google-search). go-search-google is a wrapper to help ratelimit and detect Google blocking requests, but at its heart utilizerocketlaunchr's google-search library for querying and scraping results
+This package relies heavily on [https://github.com/rocketlaunchr/google-search](https://github.com/rocketlaunchr/google-search). go-search-google is a wrapper to help ratelimit and detect Google blocking requests, but at its heart utilizes rocketlaunchr's google-search library for querying and scraping results.
